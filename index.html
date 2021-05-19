@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>ToDo List</h1>
+
+        <div class="todo add">
+            <input type="text" id="input" class="input" onkeypress="enter(event)">
+            <button id="btn" class="btn">Add</button>
+        </div>
+
+        <div class="todo main">
+            <ul id="ul" class="ul">
+            </ul>
+        </div>
+
+        <div class="todo clear">
+            <h3></h3>
+            <button id="clear" class="btn">Clear All</button>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
